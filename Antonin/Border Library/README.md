@@ -1,8 +1,8 @@
 # Border Library
 
 ## Liste des fonctions
-* [getBorderCells(b)](#getBorderCells)
-* getDistanceFromBorder(c)
+* [getBorderCells(b)] (#getBorderCells)
+* [getDistanceFromBorder(c)] (#getDistanceFromBorder)
 
 
 ## getBorderCells(b) {#getBorderCells}
@@ -21,3 +21,7 @@ Par exemple, le code si dessous renverra les bordures Nord et Est
 
 
     getBorderCells(NORTH+EAST);
+
+
+## getDistanceFromBorder(c) {#getDistanceFromBorder}
+La fonction retourne le nombre de case entre la case *c* et la bordure la plus proche
