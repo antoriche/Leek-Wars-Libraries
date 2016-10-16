@@ -49,9 +49,11 @@ function getBorderCells(b){
 	return border_cells;
 }
 
+function getDistanceFromBorder(c){
 	var borders = getBorderCells(0);
 	var min = 100;
 	for(var cell in borders){
+		var dis = getCellDistance(cell, c);
 		if(dis < min){
 			min = dis;
 		}
