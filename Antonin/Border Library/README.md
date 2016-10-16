@@ -10,11 +10,14 @@ La fonction retourne un tableau contenant les cellules des bordures.
 
 Le paramètre b permet de spécifier les bordures à renvoyer :
 * 0 renvoi toutes les bordures
-* NORTH renvoi la bordure Nord
-* EAST renvoi la bordure Est
-* SOUTH renvoi la bordure Sud
-* WEST renvoi la bordure Ouest
+* NORTH renverra la bordure Nord
+* EAST renverra la bordure Est
+* SOUTH renverra la bordure Sud
+* WEST renverra la bordure Ouest
 
 Il est possible de selectionner plusieurs bordures avec l'opérateur +
 
-Exemple : *getBorderCells(NORTH+EAST)* renverra les bordures Nord et Est
+Par exemple, le code si dessous renverra les bordures Nord et Est
+
+
+    getBorderCells(NORTH+EAST);
