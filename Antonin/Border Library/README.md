@@ -1,11 +1,11 @@
 # Border Library
 
 ## Liste des fonctions
-* [getBorderCells(b)] (#getBorderCells)
-* [getDistanceFromBorder(c)] (#getDistanceFromBorder)
+* getBorderCells(b)
+* getDistanceFromBorder(c)
 
 
-## getBorderCells(b) {#getBorderCells}
+## getBorderCells(b)
 La fonction retourne un tableau contenant les cellules des bordures.
 
 Le paramètre b permet de spécifier les bordures à renvoyer :
@@ -23,5 +23,5 @@ Par exemple, le code si dessous renverra les bordures Nord et Est
     getBorderCells(NORTH+EAST);
 
 
-## getDistanceFromBorder(c) {#getDistanceFromBorder}
+## getDistanceFromBorder(c)
 La fonction retourne le nombre de case entre la case *c* et la bordure la plus proche
