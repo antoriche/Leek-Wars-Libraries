@@ -1,3 +1,9 @@
+/*
+	Antonin Riche
+	16 octobre 2016
+	Version 1.0	
+*/
+
  global NORTH = 1;
  global EAST = 2;
  global SOUTH = 4;
