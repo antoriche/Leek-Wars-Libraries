@@ -1,15 +1,15 @@
 # Border Library
 
 ## Liste des fonctions
-* getBorderCells(b)
+* [getBorderCells(b)](#getBorderCells)
 * getDistanceFromBorder(c)
 
 
-## getBorderCells(b)
+## getBorderCells(b) {#getBorderCells}
 La fonction retourne un tableau contenant les cellules des bordures.
 
 Le paramètre b permet de spécifier les bordures à renvoyer :
-* 0 renvoi toutes les bordures
+* 0 renverra toutes les bordures
 * NORTH renverra la bordure Nord
 * EAST renverra la bordure Est
 * SOUTH renverra la bordure Sud
