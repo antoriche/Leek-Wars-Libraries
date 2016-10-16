@@ -14,5 +14,4 @@ Le paramètre b permet de spécifier les bordures à renvoyer :
 * SOUTH renvoi la bordure Sud
 * WEST renvoi la bordure Ouest
 Il est possible de selectionner plusieurs bordures avec l'opérateur +
-> getBorderCells(NORTH+EAST)
-renverra les bordures Nord et Est
+Exemple : *getBorderCells(NORTH+EAST)* renverra les bordures Nord et Est
