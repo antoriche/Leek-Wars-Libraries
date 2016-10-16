@@ -1,3 +1,9 @@
+/*
+	Antonin Riche
+	16 octobre 2016
+	Version 1.0	
+*/
+
 function getAttackName(attack){
 	if(isChip(attack)){
 		return getChipName(attack);

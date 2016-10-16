@@ -1,4 +1,4 @@
-# Attack Library
+# Attack Library V1.0
 
 Une **attack** représente soit une *chip* soit une *weapon*.
 
