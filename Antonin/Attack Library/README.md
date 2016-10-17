@@ -9,6 +9,8 @@ Cela permet de mélanger ces deux élément et sans avoir à se soucier lequel e
 * getAttackValue(attack)
 * getAttacks()
 * getAttackName(attack)
+* getAttackMaxRange(attack)
+* getAttackMinRange(attack)
 * getAttackArea(attack)
 * getAttackCost(attack)
 * canUseAttack(attack,leek)
@@ -31,6 +33,12 @@ Renvoi toutes les attaques d'un poireau trié de maniere décroissante en foncti
 
 ##  getAttackName(attack)
 Renvoi le nom d'une attaque
+
+## getAttackMaxRange(attack)
+Renvoi la portée maximal de l'attaque
+
+## getAttackMinRange(attack)
+Renvoi la portée minimal de l'attaque
 
 ##  getAttackArea(attack)
 Renvoi la portée d'une attaque
