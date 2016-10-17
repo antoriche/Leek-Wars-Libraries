@@ -1,4 +1,4 @@
-# Border Library V1.0
+# Border Library v1.0
 
 ## Liste des fonctions
 * getBorderCells(b)
